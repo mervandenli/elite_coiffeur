@@ -1,0 +1,91 @@
+{% load static %}
+
+.bgimg-2 {
+    background: url("/static/img/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+}
+@media only screen and (min-device-width: 150px) and (max-device-width: 600px) {
+  .bgimg-2 {
+    background-position: left;
+    background-attachment: scroll;
+    background-size: cover;
+    top: 50px;
+    margin-bottom: 60px;
+    min-height: 150px;
+    width: 100%;
+  }
+}
+
+.bgimg {
+    background: url("/static/img/bg1.jpeg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+}
+@media only screen and (min-device-width: 150px) and (max-device-width: 600px) {
+  .bgimg {
+    background-attachment: scroll;
+    min-height: 250px;
+    width: 100%;
+  }
+}
+
+.bgimg1 {
+    background: url("/static/img/bg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+.bgimg3 {
+    background: url("/static/img/bg2.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+}
+@media only screen and (min-device-width: 150px) and (max-device-width: 600px) {
+  .bgimg3 {
+    background-attachment: scroll;
+    min-height: 200px;
+    width: 100%;
+  }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 25px;
+    outline: none;
+    background-color: #343a40;
+    opacity: 0.6;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 1s;
+    padding: 12.5px;
+    padding-block: inherit;
+    border-color: white;
+    border-width: 2.5px;
+  }
+
+  #myBtn:hover {
+      color: #ef233c;
+      border-color: #ef233c;
+  }
+

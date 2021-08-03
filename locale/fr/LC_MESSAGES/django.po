@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-26 00:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\catalog\settings.py:125
+msgid "German"
+msgstr "Allemand"
+
+#: .\catalog\settings.py:126
+msgid "English"
+msgstr "Anglais"
+
+#: .\catalog\settings.py:127
+msgid "French"
+msgstr "Français"
+
+#: .\templates\pages\about.html:7
+msgid "AboutUsHeader"
+msgstr "À propos de nous"
+
+#: .\templates\pages\about.html:11
+msgid "AboutUsTextOne"
+msgstr "Vous cherchez un coiffeur dans la ville de Bienne ?"
+
+#: .\templates\pages\about.html:12
+msgid "AboutUsTextTwo"
+msgstr "Nous sommes votre salon de coiffure professionnel au cœur de Bienne."
+
+#: .\templates\pages\about.html:13
+msgid "AboutUsTextThree"
+msgstr "Notre équipe garantit une haute qualité et la bonne coupe de cheveux pour les femmes, les hommes et les enfants."
+
+#: .\templates\pages\about.html:14
+msgid "AboutUsTextFour"
+msgstr "Nous attendons votre visite!"
+
+#: .\templates\pages\contact.html:15
+msgid "PhoneButton"
+msgstr "Appelez-nous!"
+
+#: .\templates\pages\contact.html:18
+msgid "OpeningHoursHeader"
+msgstr "Horaires d'ouvertures"
+
+#: .\templates\pages\contact.html:20
+msgid "MondayText"
+msgstr "Lundi"
+
+#: .\templates\pages\contact.html:21
+msgid "TuesdayText"
+msgstr "Mardi"
+
+#: .\templates\pages\contact.html:22
+msgid "WednesdayText"
+msgstr "Mercredi"
+
+#: .\templates\pages\contact.html:23
+msgid "ThursdayText"
+msgstr "Jeudi"
+
+#: .\templates\pages\contact.html:24
+msgid "FridayText"
+msgstr "Vendredi"
+
+#: .\templates\pages\contact.html:25
+msgid "SaturdayText"
+msgstr "Samedi"
+
+#: .\templates\pages\contact.html:26
+msgid "SundayText"
+msgstr "Dimanche"
+
+#: .\templates\pages\contact.html:26
+msgid "ClosedText"
+msgstr "Fermé"
+
+#: .\templates\pages\contact.html:31
+msgid "SendUsHeader"
+msgstr "Envoyez-nous un e-mail"
+
+#: .\templates\pages\contact.html:38
+msgid "SubmitButton"
+msgstr "Soumettre"
+
+#: .\templates\pages\gallery.html:9
+msgid "GalleryHeader"
+msgstr "Galerie"
+
+#: .\templates\pages\gallery.html:13
+msgid "GalleryTextOne"
+msgstr "Obtenez un aperçu de notre travail quotidien."
+
+#: .\templates\pages\gallery.html:14
+msgid "GalleryTextTwo"
+msgstr "Dans nos salons de coiffure modernes, notre équipe est heureuse d'être là pour vous et de vous offrir des conseils professionnels et individuels."
+
+#: .\templates\pages\index.html:8
+msgid "WelcomeHeading"
+msgstr "Bienvenue chez Elite Coiffeur"
+
+#: .\templates\pages\index.html:12
+msgid "WelcomeTextOne"
+msgstr "Nous sommes heureux de prendre beaucoup de temps pour vous et de prendre soin de vos cheveux. Dans l'Elite Hairdressing Studio à Biel / Bienne, le contact personnel avec les clients est très important!"
+
+#: .\templates\pages\index.html:14
+msgid "WelcomeTextTwo"
+msgstr "Coupe de cheveux mesdames et messieurs"
+
+#: .\templates\pages\index.html:16
+msgid "WelcomeTextThree"
+msgstr "Nous vous concocterons une belle coiffure et serons ravis de vous conseiller!"
+
+#: .\templates\pages\index.html:22
+msgid "PublicityHeading"
+msgstr "L'IDEAL COIFFURE ET COUPE BARBE"
+
+#: .\templates\pages\index.html:26
+msgid "PublicityTextOne"
+msgstr "Nous servons notre clientèle diversifiée avec professionnalisme et convivialité. Les conseils sont d'une grande importance. Nous sommes heureux de répondre aux demandes des clients et de vous conseiller avec honnêteté et compétence."
+
+#: .\templates\pages\index.html:28
+msgid "PublicityTextTwo"
+msgstr "Il est important que les clients se sentent à l'aise dans l'atmosphère de confiance et le service amical de la jeune équipe. De nombreux clients réguliers apprécient de pouvoir s'asseoir et de se faire couper leur coiffure préférée sans gros mots."
+
+#: .\templates\pages\index.html:30
+msgid "PublicityTextThree"
+msgstr "Nous sommes un salon pour dames, messieurs et enfants. Nous sommes à votre disposition à tout moment pour prendre rendez-vous et pour des conseils."
+
+#: .\templates\pages\index.html:38
+msgid "HairstylingHeading"
+msgstr "COIFFURE"
+
+#: .\templates\pages\index.html:42
+msgid "HairstylingTextOne"
+msgstr "Bénéficiez de conseils de type compétents avec différentes techniques de couleurs / stries ainsi que les dernières tendances."
+
+#: .\templates\pages\index.html:44
+msgid "HairstylingTextTwo"
+msgstr "Une coiffure de mariée pour le plus beau jour de la vie, un coiffage pour sortir ou simplement se faire du bien!"
+
+#: .\templates\pages\index.html:46
+msgid "HairstylingTextFour"
+msgstr "Tout est possible avec nous, nous sommes heureux d'en discuter ensemble dans le salon."
+
+#: .\templates\pages\price.html:9
+msgid "WomensHeader"
+msgstr "DAMES"
+
+#: .\templates\pages\price.html:11
+msgid "WomenCuttingText"
+msgstr "COUPE"
+
+#: .\templates\pages\price.html:11 .\templates\pages\price.html:12
+#: .\templates\pages\price.html:13 .\templates\pages\price.html:14
+#: .\templates\pages\price.html:15 .\templates\pages\price.html:16
+#: .\templates\pages\price.html:17 .\templates\pages\price.html:18
+#: .\templates\pages\price.html:19 .\templates\pages\price.html:20
+#: .\templates\pages\price.html:21 .\templates\pages\price.html:28
+#: .\templates\pages\price.html:29 .\templates\pages\price.html:30
+#: .\templates\pages\price.html:31 .\templates\pages\price.html:32
+#: .\templates\pages\price.html:37 .\templates\pages\price.html:38
+#: .\templates\pages\price.html:39 .\templates\pages\price.html:40
+#: .\templates\pages\price.html:41
+msgid "FromText"
+msgstr "de"
+
+#: .\templates\pages\price.html:12
+msgid "WashCutBrushingText"
+msgstr "LAVAGE, COUPE, BROSSAGE"
+
+#: .\templates\pages\price.html:13
+msgid "WashBrushMoldingText"
+msgstr "LAVAGE, BROSSAGE, MOULAGE"
+
+#: .\templates\pages\price.html:14
+msgid "WashCutGoText"
+msgstr "WASH, CUT & GO"
+
+#: .\templates\pages\price.html:15
+msgid "WashDyeBrushingText"
+msgstr "LAVAGE, COLORATION, BROSSAGE"
+
+#: .\templates\pages\price.html:16
+msgid "SurchargeCuttingText"
+msgstr "COUPE SUPPLÉMENTAIRE"
+
+#: .\templates\pages\price.html:17
+msgid "FoilMèchesText"
+msgstr "FEUILLES MÈCHES"
+
+#: .\templates\pages\price.html:18
+msgid "BalayageText"
+msgstr "BALAYAGE"
+
+#: .\templates\pages\price.html:19
+msgid "PermsKeratinTreatmentText"
+msgstr "TRAITEMENT ONDES PERMANENTES OU KÉRATINE"
+
+#: .\templates\pages\price.html:20
+msgid "UpdoHairstylesText"
+msgstr "COIFFURES SUPÉRIEURES"
+
+#: .\templates\pages\price.html:21
+msgid "HairExtensionsTapesText"
+msgstr "RUBAN DE RALLONGE DE CHEVEUX OU COLLAGE DE KÉRATINE/ANNEAU"
+
+#: .\templates\pages\price.html:26
+msgid "GentlemensHeader"
+msgstr "MESSIEURS"
+
+#: .\templates\pages\price.html:28
+msgid "MenCuttingText"
+msgstr "COUPE"
+
+#: .\templates\pages\price.html:29
+msgid "WaschCutText"
+msgstr "LAVAGE, COUPE"
+
+#: .\templates\pages\price.html:30
+msgid "ShaveBeardText"
+msgstr "RASAGE DE LA BARBE"
+
+#: .\templates\pages\price.html:31
+msgid "PluckEyebrowsText"
+msgstr "COLLER LES SOURCILS"
+
+#: .\templates\pages\price.html:32
+msgid "BoysCuttingText"
+msgstr "COUPE ENFANTS jusqu'à 12 ans"
+
+#: .\templates\pages\price.html:35
+msgid "GirlsHeader"
+msgstr "FILLES (jusqu'à 12 ans)"
+
+#: .\templates\pages\price.html:37
+msgid "CutGoText"
+msgstr "CUT & GO"
+
+#: .\templates\pages\price.html:38
+msgid "PluckingText"
+msgstr "TECHNIQUE DU FIL DE SOURCILS / PLUCK"
+
+#: .\templates\pages\price.html:39
+msgid "PluckdyeingText"
+msgstr "PINCAGE ET COLORATION"
+
+#: .\templates\pages\price.html:40
+msgid "DyeEyelashesText"
+msgstr "COLORATION DES OREILLES"
+
+#: .\templates\pages\price.html:41
+msgid "ProMakeupText"
+msgstr "MAQUILLAGE PROFESSIONNEL"
+
+#: .\templates\partials\_navbar.html:11
+msgid "FollowUsButton"
+msgstr "Suivez nous!"
+
+#: .\templates\partials\_navbar.html:37
+msgid "GelleryButton"
+msgstr "Galerie"
+
+#: .\templates\partials\_navbar.html:47
+msgid "AboutButton"
+msgstr "À propos de nous"
+
+#: .\templates\partials\_navbar.html:56
+msgid "PriceButton"
+msgstr "Liste de prix"
+
+#: .\templates\partials\_navbar.html:65
+msgid "ContactButton"
+msgstr "Contacter"

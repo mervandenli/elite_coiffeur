@@ -1,0 +1,56 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="w3-row w3-row-padding container w3-center">
+    <div class="container mb-5 mt-3 w3-panel w3-card" style="font-family: 'Poiret One';">
+        <h1 class="display-4 text-center" style="font-family: 'Poiret One';">{% trans 'GalleryHeader' %}</h1>
+        <hr style="border-color: #ef233c;">
+        <p class="text-center lead my-3 pb-5">
+            <span class="font-weight-bold">
+                {% trans 'GalleryTextOne' %}<br><br>
+                {% trans 'GalleryTextTwo' %}
+        </p>
+    </div>
+    <div class="w3-panel w3-card pt-3 pb-3">
+
+        {% if photos %}
+            {% for photo in photos %}
+                <div class="w3-col m3">
+                    <img src="/media/{{ photo.image }}" style="width:100%;max-width:250px;min-width:250px;height:100%;max-height:250px;min-height:250px;padding: 5px" onclick="onClick(this)"
+                    class="w3-hover-opacity">
+                </div>
+            {% endfor %}
+        {% else %}
+            <div class="alert alert-warning">
+                <p>
+                    No Photos
+                </p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-opacity w3-large w3-grey w3-display-topright" title="Close Modal Image" style="margin-top: 70px;margin-right:30px; border-radius: 50%"><i
+            class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+</div>
+
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
+
+{% endblock %}

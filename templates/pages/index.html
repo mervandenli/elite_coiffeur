@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="container mb-5 mt-3 w3-panel w3-card" style="font-family: 'Poiret One';">
+    <h1 class="display-4 text-center" style="font-family: 'Poiret One';">{% trans 'WelcomeHeading' %}</h1>
+    <hr style="border-color: #ef233c;">
+    <p class="text-center lead my-3 pb-5">
+        <span class="font-weight-bold">
+            {% trans 'WelcomeTextOne' %}
+            <br><br>
+            {% trans 'WelcomeTextTwo' %}
+            <br><br>
+            {% trans 'WelcomeTextThree' %}
+        </span>
+    </p>
+</div>
+<div class="bgimg1 w3-opacity-min"></div>
+<div class="container mb-5 mt-5 w3-panel w3-card" style="font-family: 'Poiret One';">
+    <h1 class="display-4 text-center" style="font-family: 'Poiret One';">{% trans 'PublicityHeading' %}</h1>
+    <hr style="border-color: #ef233c;">
+    <p class="text-center lead my-3 pb-5">
+        <span class="font-weight-bold">
+        {% trans 'PublicityTextOne' %}
+        <br><br>
+        {% trans 'PublicityTextTwo' %}
+        <br><br>
+        {% trans 'PublicityTextThree' %}
+    </p></span>
+</div>
+
+<div class="bgimg container w3-display-container w3-opacity-min w3-panel w3-card">
+</div>
+
+<div class="container mb-5 mt-5 w3-panel w3-card" style="font-family: 'Poiret One';">
+    <h1 class="display-4 text-center" style="font-family: 'Poiret One';">{% trans 'HairstylingHeading' %}</h1>
+    <hr style="border-color: #ef233c;">
+    <p class="text-center lead my-3 pb-5">
+        <span class="font-weight-bold">
+        {% trans 'HairstylingTextOne' %}
+        <br><br>
+        {% trans 'HairstylingTextTwo' %}
+        <br><br>
+        {% trans 'HairstylingTextFour' %}
+    </p></span>
+</div>
+{% endblock %}

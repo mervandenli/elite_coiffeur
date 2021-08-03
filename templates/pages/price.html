@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col col-md-12 col-sm-12 col-lg-6">
+            <div class="module text w3-panel w3-card-4 pb-5">
+                <h2 class="text-center subtitle">{% trans 'WomensHeader' %}</h2>
+                <hr style="border-color: #ef233c;">
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WomenCuttingText' %}</div><div>{% trans 'FromText' %} 30 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WashCutBrushingText' %}</div><div>{% trans 'FromText' %} 50 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WashBrushMoldingText' %}</div><div>{% trans 'FromText' %} 30 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WashCutGoText' %}</div><div>{% trans 'FromText' %} 40 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WashDyeBrushingText' %}</div><div>{% trans 'FromText' %} 70 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'SurchargeCuttingText' %}</div><div>{% trans 'FromText' %} 30 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'FoilMèchesText' %}</div><div>{% trans 'FromText' %} 80 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'BalayageText' %}</div><div>{% trans 'FromText' %} 90 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'PermsKeratinTreatmentText' %}</div><div>{% trans 'FromText' %} 100 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'UpdoHairstylesText' %}</div><div>{% trans 'FromText' %} 80 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'HairExtensionsTapesText' %}</div><div>{% trans 'FromText' %} 350 CHF</div></div></p>
+            </div>
+        </div>
+        <div class="col col-md-12 col-sm-12 col-lg-6">
+            <div class="module text w3-panel w3-card-4">
+                <h2 class="text-center subtitle">{% trans 'GentlemensHeader' %}</h2>
+                <hr style="border-color: #ef233c;">
+                <p><div class="d-flex justify-content-between"><div>{% trans 'MenCuttingText' %}</div><div>{% trans 'FromText' %} 25 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WaschCutText' %}</div><div>{% trans 'FromText' %} 30 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'ShaveBeardText' %}</div><div>{% trans 'FromText' %} 15 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'PluckEyebrowsText' %}</div><div>{% trans 'FromText' %} 10 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'BoysCuttingText' %}</div><div>{% trans 'FromText' %} 20 CHF</div></div></p>
+            </div>
+            <div class="module text w3-panel w3-card-4">
+                <h2 class="text-center subtitle"> {% trans 'GirlsHeader' %} </h2>
+                <hr style="border-color: #ef233c;">
+                <p><div class="d-flex justify-content-between"><div>{% trans 'CutGoText' %}</div><div>{% trans 'FromText' %} 20 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'PluckingText' %}</div><div>{% trans 'FromText' %} 15 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'PluckdyeingText' %}</div><div>{% trans 'FromText' %} 25 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'DyeEyelashesText' %}</div><div>{% trans 'FromText' %} 15 CHF</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'ProMakeupText' %}</div><div>{% trans 'FromText' %} 50 CHF</div></div></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

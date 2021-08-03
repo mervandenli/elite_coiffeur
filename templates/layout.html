@@ -1,0 +1,59 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'icon/icon1.ico' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'> <!-- font link -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Elite Coiffeur</title>
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #343a40;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #ef233c;
+        }
+    </style>
+</head>
+
+<body>
+
+    {% include 'partials/_navbar.html' %}
+    {% include 'partials/_header.html' %}
+    {% include 'partials/_messages.html' %}
+
+    <main>
+
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+    {% include 'partials/_topbtn.html' %}
+    {% include 'partials/_footer.html' %}
+
+
+
+    <script src="https://kit.fontawesome.com/645e6789e1.js" crossorigin="anonymous"></script>
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>

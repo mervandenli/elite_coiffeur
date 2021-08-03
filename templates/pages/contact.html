@@ -1,0 +1,58 @@
+{% extends 'layout.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+
+        <div class="col col-md-6 col-sm-12 col-lg-6">
+            <div class="module text w3-panel w3-card-4">
+                <h1 class="subtitle">Elite Istanbul Coiffeur</h1>
+                <p class="bodytext">Zentralstrasse 52&nbsp;2502&nbsp;Biel/Bienne<br><br>0764131299<br>0323232656</p>
+                <a href="tel:0323232656" type="button"
+                    class="w3-button w3-padding-large w3-hover-red w3-hover-shadow w3-red text-decoration-none"
+                    style="margin-bottom:20px;opacity:0.8" target="blank">{% trans 'PhoneButton' %}</a>
+            </div>
+            <div class="module text w3-panel w3-card-4 pb-1 mt-4">
+                <h2 class="subtitle text-center">{% trans 'OpeningHoursHeader' %}</h2>
+                <hr style="border-color: #ef233c;">
+                <p><div class="d-flex justify-content-between"><div>{% trans 'MondayText' %}</div><div>08:30 – 19:00</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'TuesdayText' %}</div><div>08:30 – 19:00</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'WednesdayText' %}</div><div>08:30 – 19:00</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'ThursdayText' %}</div><div>08:30 – 21:00</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'FridayText' %}</div><div>08:30 – 19:00</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'SaturdayText' %}</div><div>08:30 – 17:00</div></div></p>
+                <p><div class="d-flex justify-content-between"><div>{% trans 'SundayText' %}</div><div>{% trans 'ClosedText' %}</div></div></p>
+            </div>
+        </div>
+        <div class="col col-md-6 col-sm-12 col-lg-6 section-inner clearfix">
+            <form class="w3-panel w3-card-4" method="post" action="">
+                <h2 class="subtitle text-center mb-5">{% trans 'SendUsHeader' %}</h2>
+                <hr class="mb-5" style="border-color: #ef233c;">
+                {% csrf_token %}
+                <table>
+                    {{ form.as_table }}
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="{% trans 'SubmitButton' %}" class="w3-button w3-padding-large w3-hover-red w3-hover-shadow w3-red mt-4 mb-5"></td>
+                        </tr></div>
+                </table>
+
+            </form>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col col-md-12 col-sm-12 col-lg-12">
+            <div class="container text-center w3-panel w3-card-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.1437365844185!2d7.244533215614208!3d47.135449979156185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e194ef4c5e63f%3A0x48225ac6f54227d!2sIstanbul%20Coiffure!5e0!3m2!1str!2sch!4v1617639246803!5m2!1str!2sch"
+                    width="100%" height="500" style="border:0; margin-top:10px" allowfullscreen=""
+                    loading="lazy"></iframe>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

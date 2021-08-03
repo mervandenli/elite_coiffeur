@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-26 00:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\catalog\settings.py:125
+msgid "German"
+msgstr "German"
+
+#: .\catalog\settings.py:126
+msgid "English"
+msgstr "English"
+
+#: .\catalog\settings.py:127
+msgid "French"
+msgstr "French"
+
+#: .\templates\pages\about.html:7
+msgid "AboutUsHeader"
+msgstr "About Us"
+
+#: .\templates\pages\about.html:11
+msgid "AboutUsTextOne"
+msgstr "Are you looking for a hairdresser in the city of Biel?"
+
+#: .\templates\pages\about.html:12
+msgid "AboutUsTextTwo"
+msgstr "We are your professional hairdressing salon in the heart of Biel."
+
+#: .\templates\pages\about.html:13
+msgid "AboutUsTextThree"
+msgstr "Our team guarantees high quality and the right haircut for women, men and children."
+
+#: .\templates\pages\about.html:14
+msgid "AboutUsTextFour"
+msgstr "We are looking forward to your visit!"
+
+#: .\templates\pages\contact.html:15
+msgid "PhoneButton"
+msgstr "Call Us!"
+
+#: .\templates\pages\contact.html:18
+msgid "OpeningHoursHeader"
+msgstr "Opening Hours"
+
+#: .\templates\pages\contact.html:20
+msgid "MondayText"
+msgstr "Monday"
+
+#: .\templates\pages\contact.html:21
+msgid "TuesdayText"
+msgstr "Tuesday"
+
+#: .\templates\pages\contact.html:22
+msgid "WednesdayText"
+msgstr "Wednesday"
+
+#: .\templates\pages\contact.html:23
+msgid "ThursdayText"
+msgstr "Thursday"
+
+#: .\templates\pages\contact.html:24
+msgid "FridayText"
+msgstr "Friday"
+
+#: .\templates\pages\contact.html:25
+msgid "SaturdayText"
+msgstr "Saturday"
+
+#: .\templates\pages\contact.html:26
+msgid "SundayText"
+msgstr "Sunday"
+
+#: .\templates\pages\contact.html:26
+msgid "ClosedText"
+msgstr "Closed"
+
+#: .\templates\pages\contact.html:31
+msgid "SendUsHeader"
+msgstr "Send us an e-mail"
+
+#: .\templates\pages\contact.html:38
+msgid "SubmitButton"
+msgstr "Submit"
+
+#: .\templates\pages\gallery.html:9
+msgid "GalleryHeader"
+msgstr "Gallery"
+
+#: .\templates\pages\gallery.html:13
+msgid "GalleryTextOne"
+msgstr "Get an insight into our daily work."
+
+#: .\templates\pages\gallery.html:14
+msgid "GalleryTextTwo"
+msgstr "In our modern hairdressing salons, our team is happy to be there for you and offer you professional and individual advice."
+
+#: .\templates\pages\index.html:8
+msgid "WelcomeHeading"
+msgstr "Welcome to Elite Coiffeur"
+
+#: .\templates\pages\index.html:12
+msgid "WelcomeTextOne"
+msgstr "We are happy to take plenty of time for you and pamper your hair. In the Elite Hairdressing Studio in Biel / Bienne, personal contact with customers is very important!"
+
+#: .\templates\pages\index.html:14
+msgid "WelcomeTextTwo"
+msgstr "Ladies and gentlemen haircut"
+
+#: .\templates\pages\index.html:16
+msgid "WelcomeTextThree"
+msgstr "We'll conjure up a beautiful hairstyle for you and will be happy to advise you!"
+
+#: .\templates\pages\index.html:22
+msgid "PublicityHeading"
+msgstr "THE IDEAL HAIRSTYLE AND BEARD CUTTING"
+
+#: .\templates\pages\index.html:26
+msgid "PublicityTextOne"
+msgstr "We serve our diverse clientele professionally and in a friendly manner. Advice is of great importance. We are happy to respond to customer requests and advice you honestly and competently."
+
+#: .\templates\pages\index.html:28
+msgid "PublicityTextTwo"
+msgstr "It is important that the customers feel comfortable in the trusting atmosphere and the friendly service of the young team. Many regular customers appreciate being able to just sit down and have their favorite hairstyle cut without big words."
+
+#: .\templates\pages\index.html:30
+msgid "PublicityTextThree"
+msgstr "We are a salon for ladies, gentlemen and children. We are at your disposal at any time to make an appointment and for advice."
+
+#: .\templates\pages\index.html:38
+msgid "HairstylingHeading"
+msgstr "HAIR STYLING"
+
+#: .\templates\pages\index.html:42
+msgid "HairstylingTextOne"
+msgstr "Enjoy competent type advice with different color / streak techniques as well as the latest trends."
+
+#: .\templates\pages\index.html:44
+msgid "HairstylingTextTwo"
+msgstr "A bridal hairstyle for the most beautiful day in life, a styling for going out or simply doing something good for yourself!"
+
+#: .\templates\pages\index.html:46
+msgid "HairstylingTextFour"
+msgstr "Everything is possible with us, we are happy to discuss this together in the salon."
+
+#: .\templates\pages\price.html:9
+msgid "WomensHeader"
+msgstr "LADIES"
+
+#: .\templates\pages\price.html:11
+msgid "WomenCuttingText"
+msgstr "CUTTING"
+
+#: .\templates\pages\price.html:11 .\templates\pages\price.html:12
+#: .\templates\pages\price.html:13 .\templates\pages\price.html:14
+#: .\templates\pages\price.html:15 .\templates\pages\price.html:16
+#: .\templates\pages\price.html:17 .\templates\pages\price.html:18
+#: .\templates\pages\price.html:19 .\templates\pages\price.html:20
+#: .\templates\pages\price.html:21 .\templates\pages\price.html:28
+#: .\templates\pages\price.html:29 .\templates\pages\price.html:30
+#: .\templates\pages\price.html:31 .\templates\pages\price.html:32
+#: .\templates\pages\price.html:37 .\templates\pages\price.html:38
+#: .\templates\pages\price.html:39 .\templates\pages\price.html:40
+#: .\templates\pages\price.html:41
+msgid "FromText"
+msgstr "from"
+
+#: .\templates\pages\price.html:12
+msgid "WashCutBrushingText"
+msgstr "WASHING, CUTTING, BRUSHING"
+
+#: .\templates\pages\price.html:13
+msgid "WashBrushMoldingText"
+msgstr "WASHING, BRUSHING, MOLDING"
+
+#: .\templates\pages\price.html:14
+msgid "WashCutGoText"
+msgstr "WASH, CUT & GO"
+
+#: .\templates\pages\price.html:15
+msgid "WashDyeBrushingText"
+msgstr "WASHING, COLORING, BRUSHING"
+
+#: .\templates\pages\price.html:16
+msgid "SurchargeCuttingText"
+msgstr "SURCHARGE CUTTING"
+
+#: .\templates\pages\price.html:17
+msgid "FoilMèchesText"
+msgstr "FOILS MÈCHES"
+
+#: .\templates\pages\price.html:18
+msgid "BalayageText"
+msgstr "BALAYAGE"
+
+#: .\templates\pages\price.html:19
+msgid "PermsKeratinTreatmentText"
+msgstr "PERMANENT WAVES OR KERATIN TREATMENT"
+
+#: .\templates\pages\price.html:20
+msgid "UpdoHairstylesText"
+msgstr "UPPER HAIRDRESS"
+
+#: .\templates\pages\price.html:21
+msgid "HairExtensionsTapesText"
+msgstr "HAIR EXTENSIONS TAPES OR KERATIN / RING BONDINGS"
+
+#: .\templates\pages\price.html:26
+msgid "GentlemensHeader"
+msgstr "GENTLEMEN"
+
+#: .\templates\pages\price.html:28
+msgid "MenCuttingText"
+msgstr "CUTTING"
+
+#: .\templates\pages\price.html:29
+msgid "WaschCutText"
+msgstr "WASHING, CUTTING"
+
+#: .\templates\pages\price.html:30
+msgid "ShaveBeardText"
+msgstr "BEARD SHAVING"
+
+#: .\templates\pages\price.html:31
+msgid "PluckEyebrowsText"
+msgstr "PLUCKING EYEBROWS"
+
+#: .\templates\pages\price.html:32
+msgid "BoysCuttingText"
+msgstr "CHILDREN CUTTING up to 12 y/o"
+
+#: .\templates\pages\price.html:35
+msgid "GirlsHeader"
+msgstr "GIRLS (up to 12 y/o)"
+
+#: .\templates\pages\price.html:37
+msgid "CutGoText"
+msgstr "CUT & GO"
+
+#: .\templates\pages\price.html:38
+msgid "PluckingText"
+msgstr "EYEBROW THREAD TECHNIQUE / PLUCK"
+
+#: .\templates\pages\price.html:39
+msgid "PluckdyeingText"
+msgstr "PLUCKING AND COLORING"
+
+#: .\templates\pages\price.html:40
+msgid "DyeEyelashesText"
+msgstr "EAR COLORING"
+
+#: .\templates\pages\price.html:41
+msgid "ProMakeupText"
+msgstr "PROFESSIONAL MAKEUP"
+
+#: .\templates\partials\_navbar.html:11
+msgid "FollowUsButton"
+msgstr "Follow Us!"
+
+#: .\templates\partials\_navbar.html:37
+msgid "GelleryButton"
+msgstr "Gallery"
+
+#: .\templates\partials\_navbar.html:47
+msgid "AboutButton"
+msgstr "About Us"
+
+#: .\templates\partials\_navbar.html:56
+msgid "PriceButton"
+msgstr "Price List"
+
+#: .\templates\partials\_navbar.html:65
+msgid "ContactButton"
+msgstr "Contact"

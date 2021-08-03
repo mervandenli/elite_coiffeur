@@ -1,0 +1,113 @@
+
+{% load static %}
+{% load i18n %}
+
+<header>
+
+    <div id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" style="opacity: 0.8;">
+
+            <a href="{% url 'index' %}" class="navbar-brand"><i class="fas fa-cut"></i> Elite Coiffeur</a>
+
+            <div class="w3-large">
+                <a href="https://www.instagram.com/elite.istanbulcoiffeur/" target="blank"><i class="fa fa-instagram text-light w3-hover-text-red" style="transition: 1s;"><span class="font-weight-bold" style="font-family: 'Poiret One';"> {% trans 'FollowUsButton' %}</span></i></a>
+            </div>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li
+                        {% if request.path == '/' %}
+                            class="nav-item active"
+                        {% else %}
+                            class="nav-item"
+                        {% endif %}
+                    >
+                        <a href="{% url 'index' %}" class="nav-link w3-hover-red rounded"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li
+                        {% if 'gallery' in request.path %}
+                            class="nav-item active"
+                        {% else %}
+                            class="nav-item"
+                        {% endif %}
+                    >
+                        <a href="{% url 'gallery' %}" class="nav-link w3-hover-red rounded"><i class="fa fa-th"></i> {% trans 'GelleryButton' %}</a>
+
+                    </li>
+                    <li
+                        {% if 'about' in request.path %}
+                            class="nav-item active"
+                        {% else %}
+                            class="nav-item"
+                        {% endif %}
+                    >
+                        <a href="{% url 'about' %}" class="nav-link w3-hover-red rounded"><i class="fas fa-address-card"></i> {% trans 'AboutButton' %}</a>
+                    </li>
+                    <li
+                        {% if 'price' in request.path %}
+                            class="nav-item active"
+                        {% else %}
+                            class="nav-item"
+                        {% endif %}
+                    >
+                        <a href="{% url 'price' %}" class="nav-link w3-hover-red rounded"><i class="fas fa-tags"></i> {% trans 'PriceButton' %}</a>
+                    </li>
+                    <li
+                        {% if 'contact' in request.path %}
+                            class="nav-item active"
+                        {% else %}
+                            class="nav-item"
+                        {% endif %}
+                    >
+                        <a href="{% url 'contact' %}" class="nav-link w3-hover-red rounded"><i class="fa fa-envelope"></i> {% trans 'ContactButton' %}</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="" class="nav-link dropdown-toggle w3-hover-red rounded" data-toggle="dropdown"><i class="fas fa-globe-africa"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-right bg-dark dropdown-dark">
+                            <li>
+                                <form action="{% url 'set_language' %}" method="POST">
+                                    {% csrf_token %}
+                                    <input name="next" type="hidden" value="{{ redirect_to }}" />
+                                    <input name="language" type="hidden" value="de" />
+                                    <button type="submit" class="text-white dropdown-item w3-hover-red"><img src="/static/icon/de-icon.png" class="logo"> Deutsch</button>
+                                  </form>
+                            </li>
+                            <li>
+                                <form action="{% url 'set_language' %}" method="POST">
+                                    {% csrf_token %}
+                                    <input name="next" type="hidden" value="{{ redirect_to }}" />
+                                    <input name="language" type="hidden" value="en" />
+                                    <button type="submit" class="text-white dropdown-item w3-hover-red"><img src="/static/icon/en-icon.png" class="logo"> English</button>
+                                </form>
+                            </li>
+                            <li>
+                                <form action="{% url 'set_language' %}" method="POST">
+                                    {% csrf_token %}
+                                    <input name="next" type="hidden" value="{{ redirect_to }}" />
+                                    <input name="language" type="hidden" value="fr" />
+                                    <button type="submit" class="text-white dropdown-item w3-hover-red"><img src="/static/icon/fr-icon.png" class="logo"> Français</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+    </div>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        }
+    </script>
+</header>
