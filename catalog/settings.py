@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.utils import translation
 from pathlib import Path
 import os
@@ -36,9 +36,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ns3ipot8&(igzw@0hphcs@5j+*hpia3yf20a8zwgfcea5ww^4*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['elitecoiffeur.ch', 'www.elitecoiffeur.ch', '104.248.132.60']
 
 
 # Application definition
@@ -91,8 +91,12 @@ WSGI_APPLICATION = 'catalog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR / 'istanbulcoiffeurdb'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'istanbulcoiffeurdb',
+        'USER': 'mervandenli',
+        'PASSWORD': '@Elite:123',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -142,10 +146,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "static"),
+#]
 
 
 LOCALE_PATHS = ( os.path.join(BASE_DIR, 'locale/'), )
